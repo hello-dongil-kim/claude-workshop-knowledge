@@ -1,0 +1,26 @@
+{
+  // Claude Workshop 문서 하우스 스타일 (3개 repo 공통)
+  // 의도된 교육 콘텐츠 포맷 — EXPLAIN/EXECUTE/QUIZ 반복 구조, **Step 1:** 볼드 라벨,
+  // compact 테이블, 한국어 긴 산문 — 에 맞춰 일부 markdownlint 규칙을 비활성화한다.
+  "default": true,
+
+  // — 의도된 스타일 —
+  "MD013": false, // line-length: 한국어 산문 긴 줄 허용
+  "MD024": false, // no-duplicate-heading: EXPLAIN/EXECUTE/QUIZ 반복 허용
+  "MD025": false, // single-title: 문서 내 다중 최상위 섹션 허용
+  "MD036": false, // no-emphasis-as-heading: **Step 1:** 등 볼드 라벨 허용
+  "MD040": false, // fenced-code-language: 프롬프트/frontmatter 펜스 언어 생략 허용
+  "MD060": false, // table-column-style: compact 테이블 허용
+
+  // — compact 포맷 유지를 위한 여백 규칙 완화 —
+  "MD022": false, // blanks-around-headings
+  "MD028": false, // no-blanks-blockquote
+  "MD031": false, // blanks-around-fences
+  "MD032": false, // blanks-around-lists
+  "MD058": false, // blanks-around-tables
+
+  // — 잔여 경고 정리 (필요 시 다시 켜서 엄격 운영 가능) —
+  "MD009": false, // no-trailing-spaces
+  "MD012": false, // no-multiple-blanks
+  "MD034": false  // no-bare-urls
+}
