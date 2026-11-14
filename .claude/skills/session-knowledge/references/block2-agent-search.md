@@ -53,7 +53,7 @@
 
 ### 반복 가능하게 — "검색 스킬"로
 
-매번 4단계를 설명하기 번거로우니, 이 방식을 **Vault 검색 스킬**로 굳힌다. `templates/vault-search-skill/`을 Vault에 두면 "지식 검색해줘: 질문"으로 호출 → Claude가 질의확장→grep→읽기→추론을 자동 수행.
+매번 4단계를 설명하기 번거로우니, 이 방식을 **Vault 검색 스킬**로 굳힌다. `templates/vault-search-skill/`을 Vault의 `.claude/skills/knowledge-find/`에 복사하면 "지식 검색해줘: 질문"으로 호출 → Claude가 질의확장→grep→읽기→추론을 자동 수행.
 
 ---
 
@@ -64,7 +64,7 @@
 - 단순 grep 대비 더 적절한 노트가 위로 오는지 관찰.
 
 **Step 2: 검색 스킬 설치**
-- `templates/vault-search-skill/`를 Vault(또는 `.claude/skills/`)에 복사하게 시키고, 내 Vault 경로·구조에 맞게 다듬어줘.
+- `templates/vault-search-skill/`를 Vault의 `.claude/skills/knowledge-find/`(모든 프로젝트에서 쓰려면 `~/.claude/skills/knowledge-find/`)에 복사하게 시키고, 내 Vault 경로·구조에 맞게 다듬어줘.
 
 **Step 3: 스킬로 호출**
 - "지식 검색: ○○" 식으로 불러 결과 확인.
