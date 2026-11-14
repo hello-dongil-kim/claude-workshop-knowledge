@@ -6,6 +6,7 @@
 
 - **B2 검색 스킬 설치 위치 보강:** "Vault에 두면" → "Vault의 `.claude/skills/knowledge-find/`(또는 `~/.claude/skills/knowledge-find/`)에 복사하면". 스킬은 이 위치에 있어야 인식된다 (EXPLAIN·Step 2).
 - README 시리즈 위치 표기를 로드맵 기준(Lv.1~Lv.4 + 선택 분기)으로 교체.
+- README: "시리즈의 마지막 단계" → 선택 분기의 두 번째 편 (연작 확장 반영)
 
 ## [2026-07-01] — 튜터 UX 개선 (설명 압축·단축키 견고화·자동 진행)
 
